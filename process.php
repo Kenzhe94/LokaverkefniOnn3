@@ -10,7 +10,7 @@
             echo '<script language="javascript">';
             echo 'alert("nafnið er nu þegar tekið")';
             echo '</script>';
-            echo "<script>setTimeout(\"location.href = './Sign.php';\",1500);</script>";
+            echo "<script>setTimeout(\"location.href = './SignUp.php';\",1500);</script>";
         }
 
         else {

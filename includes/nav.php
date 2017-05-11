@@ -5,5 +5,5 @@
 	<a href="login.php">Login</a>
 </li>
 <li>
-	<a href="Sign.php">Signup</a>
+	<a href="SignUp.php">Signup</a>
 </li>
