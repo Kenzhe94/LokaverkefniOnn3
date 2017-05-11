@@ -2,7 +2,6 @@
 <html lang="en">
 <?php
 include 'dbcon.php';
-include_once 'includes/SignIn.php';
 ?>
 <head>
     

@@ -6,9 +6,9 @@
         <div class="col-md-offset-5 col-md-3">
             <div class="form-login">
             <h4>Login to Your Account</h4>
-            <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="username" />
+            <input type="text" id="username" name="username" class="form-control input-sm chat-input" placeholder="username" />
             </br>
-            <input type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="password" />
+            <input type="text" id="password" name="password" class="form-control input-sm chat-input" placeholder="password" />
             </br>
             <div class="wrapper">
             <span class="group-btn">     

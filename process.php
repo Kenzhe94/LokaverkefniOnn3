@@ -1,6 +1,7 @@
 <?php
-        $name = $_REQUEST['username'];
-        $pass = $_REQUEST['password'];
+		include 'dbcon.php';
+        $name = $_POST['username'];
+        $pass = $_POST['password'];
 
         $query = "SELECT 'username' FROM login WHERE username = '$name' AND password = '$pass'";
         $result = mysqli_query($conn, $query) or die(mysqli_error($conn));
