@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php
+include 'dbcon.php';
+include_once 'includes/SignIn.php';
+?>
 <head>
     
     <meta charset="utf-8">
@@ -48,10 +51,10 @@
                         <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="user.php">Login</a>
+                        <a href="login.php">Login</a>
                     </li>
                     <li>
-                        <a href="#">Signup</a>
+                        <a href="Sign.php">Signup</a>
                     </li>
                 </ul>
             </div>
@@ -228,7 +231,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Snilda Verkefni 2017</p>
+                    <?php require './includes/footer.php'; ?>
                 </div>
             </div>
         </footer>

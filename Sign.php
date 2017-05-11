@@ -1,4 +1,3 @@
-
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="css/signLook.css" rel="stylesheet">
 <div class="container">
@@ -6,9 +5,9 @@
         <div class="col-md-offset-5 col-md-3">
             <div class="form-login">
             <h4>Sign Up</h4>
-            <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="username" />
+            <input type="text" id="username" class="form-control input-sm chat-input" placeholder="username" />
             </br>
-            <input type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="password" />
+            <input type="password" id="password" class="form-control input-sm chat-input" placeholder="password" />
             </br>
             <div class="wrapper">
             <span class="group-btn">     
@@ -20,3 +19,4 @@
         </div>
     </div>
 </div>
+<?php require './includes/footer.php'; ?>

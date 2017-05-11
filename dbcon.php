@@ -3,11 +3,11 @@ $servername ="tsuts.tskoli.is";
 $username ="0510942049";
 $password ="mypassword";
 $dbname ="0510942049_lokaverkefni";
-$name = $_POST['Name'];
+/*$name = $_POST['Name'];
 $price = $_POST['Price'];
 $description = $_POST['Description'];
 $picture = $_POST['Picture'];
-
+*/
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -19,7 +19,7 @@ $result = $result.count()
 for ($i = 0; $x <= $result; $i++) {
     $fetch = "SELECT Name, Price, Description, Picture FROM gear WHERE ID = $i";
     $result = $conn->query($fetch);
-*/
+
 try 
 	{
 		$sql = "SELECT * FROM gear";
@@ -33,7 +33,7 @@ try
 	{
 		$mynd[] = array($row['Name'],$row['Price'], $row['Description'], $row['Picture']);
 	}
-
+*/
 /*
 public function createUser()
     {
