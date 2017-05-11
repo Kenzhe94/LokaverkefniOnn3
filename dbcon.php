@@ -2,7 +2,7 @@
 $servername ="tsuts.tskoli.is";
 $username ="0510942049";
 $password ="mypassword";
-$dbname ="lokaverkefni";
+$dbname ="0510942049_lokaverkefni";
 $name = $_POST['Name'];
 $price = $_POST['Price'];
 $description = $_POST['Description'];
@@ -22,7 +22,7 @@ for ($i = 0; $x <= $result; $i++) {
 */
 try 
 	{
-		$sql = "select * FROM gear";
+		$sql = "SELECT * FROM gear";
 		$result = $pdo->query($sql);
 
 	} catch (Exception $e) 
@@ -34,7 +34,7 @@ try
 		$mynd[] = array($row['Name'],$row['Price'], $row['Description'], $row['Picture']);
 	}
 
-
+/*
 public function createUser()
     {
         if (isset($_POST['signup'])) {
@@ -92,6 +92,6 @@ public function SessionCheck()
 
 
 ?>
-
+*/
 $conn->close();
 ?>
